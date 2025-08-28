@@ -34,7 +34,7 @@ jobs:
       uses: actions/setup-java@v4
       with:
         java-version: '17'
-        distribution: 'termurin'
+        distribution: 'temurin'
     - name: Generate and sumit gependency graph
       uses: gradle/actions/dependency-submission@v4
       
